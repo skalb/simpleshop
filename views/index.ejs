@@ -6,13 +6,17 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <script type="text/javascript" src="http://api.filepicker.io/v1/filepicker.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+    <script type="text/javascript" src="http://feather.aviary.com/js/feather.js"></script>
     <script type="text/javascript" src="javascripts/main.js"></script>
   </head>
   <body>
     <h1><%= title %></h1>
     <p>Upload a file and edit it!</p>
+    <p>To download Right Click -> Save Image!</p>
     <button id="upload" class="btn btn-primary" type="submit">Upload photo</button>
+    <button id="edit" class="btn btn-primary" type="submit">Edit photo</button>
     <br/>
     <img id="photo"></img>
+    <div id='injection_site'></div>
   </body>
 </html>
