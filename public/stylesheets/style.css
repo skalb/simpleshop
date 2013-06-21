@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#photo {
+  padding: 10px;
+}
